@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout
 
 
@@ -21,7 +24,6 @@ button_bottom.clicked.connect(button_bottom_clicked)
 
 layout.addWidget(button_top)
 layout.addWidget(button_bottom)
-
 
 window.setLayout(layout)
 window.show()
